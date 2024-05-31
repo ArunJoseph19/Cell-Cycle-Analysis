@@ -1,0 +1,123 @@
+// Hasse_Diagram
+strict digraph {
+	node0 -> node1 [arrowhead=none]
+
+	node0 -> node2 [arrowhead=none]
+
+	node1 -> node3 [arrowhead=none]
+
+	node2 -> node3 [arrowhead=none]
+
+	node0 -> node4 [arrowhead=none]
+
+	node2 -> node5 [arrowhead=none]
+
+	node4 -> node5 [arrowhead=none]
+
+	node1 -> node6 [arrowhead=none]
+
+	node4 -> node6 [arrowhead=none]
+
+	node4 -> node7 [arrowhead=none]
+
+	node4 -> node8 [arrowhead=none]
+
+	node3 -> node9 [arrowhead=none]
+
+	node5 -> node9 [arrowhead=none]
+
+	node6 -> node9 [arrowhead=none]
+
+	node7 -> node10 [arrowhead=none]
+
+	node6 -> node10 [arrowhead=none]
+
+	node8 -> node11 [arrowhead=none]
+
+	node6 -> node11 [arrowhead=none]
+
+	node5 -> node12 [arrowhead=none]
+
+	node7 -> node12 [arrowhead=none]
+
+	node5 -> node13 [arrowhead=none]
+
+	node8 -> node13 [arrowhead=none]
+
+	node9 -> node14 [arrowhead=none]
+
+	node11 -> node14 [arrowhead=none]
+
+	node13 -> node14 [arrowhead=none]
+
+	node7 -> node15 [arrowhead=none]
+
+	node8 -> node15 [arrowhead=none]
+
+	node10 -> node16 [arrowhead=none]
+
+	node12 -> node16 [arrowhead=none]
+
+	node9 -> node16 [arrowhead=none]
+
+	node11 -> node17 [arrowhead=none]
+
+	node15 -> node17 [arrowhead=none]
+
+	node10 -> node17 [arrowhead=none]
+
+	node13 -> node18 [arrowhead=none]
+
+	node12 -> node18 [arrowhead=none]
+
+	node15 -> node18 [arrowhead=none]
+
+	node14 -> node19 [arrowhead=none]
+
+	node16 -> node19 [arrowhead=none]
+
+	node17 -> node19 [arrowhead=none]
+
+	node18 -> node19 [arrowhead=none]
+
+	node19 [label=<None<br/>#0> shape=box]
+
+	node18 [label=<<font color='green3'>CT</font><br/>#1> shape=box]
+
+	node17 [label=<<font color='green3'>YT</font><br/>#1> shape=box]
+
+	node16 [label=<<font color='green3'>EmptySet, Y</font><br/>#1> shape=box]
+
+	node15 [label=<CT, YT<br/>#1> shape=box]
+
+	node14 [label=<<font color='green3'>C2, CP</font><br/>#1> shape=box]
+
+	node13 [label=<C2, CP, CT<br/>#1> shape=box]
+
+	node12 [label=<CT, EmptySet, Y<br/>#1> shape=box]
+
+	node11 [label=<C2, CP, YT<br/>#1> shape=box]
+
+	node10 [label=<EmptySet, Y, YT<br/>#1> shape=box]
+
+	node9 [label=<C2, CP, EmptySet, Y<br/>#2> shape=box]
+
+	node8 [label=<C2, CP, CT, YT<br/>#1> shape=box]
+
+	node7 [label=<CT, EmptySet, Y, YT<br/>#1> shape=box]
+
+	node6 [label=<C2, CP, EmptySet, Y, YT<br/>#2> shape=box]
+
+	node5 [label=<C2, CP, CT, EmptySet, Y<br/>#2> shape=box]
+
+	node4 [label=<C2, CP, CT, EmptySet, Y, YT<br/>#2> shape=box]
+
+	node3 [label=<<font color='green3'>M, YP, pM</font>, C2, CP, EmptySet, Y<br/>#1> shape=box]
+
+	node2 [label=<C2, CP, CT, EmptySet, M, Y, YP, pM<br/>#1> shape=box]
+
+	node1 [label=<C2, CP, EmptySet, M, Y, YP, YT, pM<br/>#1> shape=box]
+
+	node0 [label=<C2, CP, CT, EmptySet, M, Y, YP, YT, pM<br/>#1> shape=box]
+
+}
